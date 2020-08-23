@@ -14,4 +14,4 @@ def square_array(array)
   array.length.times{ |index| new << (array[index] ** 2) }
 end
 
-square_array([1,2,3,4,5])
+puts square_array([1,2,3,4,5])
