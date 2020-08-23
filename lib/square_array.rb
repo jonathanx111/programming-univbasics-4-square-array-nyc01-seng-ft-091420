@@ -11,5 +11,5 @@
 
 def square_array(array)
   new = []
-  array.length.times{ |index| new << (array[index] ** 2)
+  array.length.times{ |index| new << (array[index] ** 2) }
 end
