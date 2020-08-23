@@ -12,7 +12,7 @@
 def square_array(array)
   new = []
   array.length.times{ |index| new << (array[index] ** 2) }
-  puts new
+  new
 end
 
-square_array([1,2,3,4,5])
+print square_array([1,2,3,4,5])
