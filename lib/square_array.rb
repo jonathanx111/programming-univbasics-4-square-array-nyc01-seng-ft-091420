@@ -9,10 +9,10 @@
 #   new
 # end
 
-def square_array(array)
-  new = []
-  array.length.times{ |index| new << (array[index] ** 2) }
-  new
-end
+# def square_array(array)
+#   new = []
+#   array.length.times{ |index| new << (array[index] ** 2) }
+#   new
+# end
 
-square_array([1,2,3,4,5])
+# square_array([1,2,3,4,5])
